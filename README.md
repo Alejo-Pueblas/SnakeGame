@@ -10,6 +10,12 @@ Juego clásico de Snake con estética retro estilo Game Boy, implementado en Pyt
 
 Un Snake Game con diseño retro que captura la esencia del clásico juego. Incluye velocidad progresiva, colores estilo Game Boy y una jugabilidad fluida y adictiva.
 
+## 🎮 Jugar Ahora
+
+**[🕹️ Juega en tu navegador](https://alejo-pueblas.github.io/SnakeGame/)**
+
+Versión web disponible - ¡No requiere instalación!
+
 ## ✨ Características
 
 - 🎨 **Estilo retro clásico** con paleta de colores verde estilo Game Boy
