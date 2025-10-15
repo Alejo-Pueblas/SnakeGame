@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game - Estilo Retro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🐍 Snake Game</h1>
+            <p class="subtitle">Estilo Retro - Game Boy</p>
+        </div>
+        
+        <div class="game-wrapper">
+            <div class="score-board">
+                <div class="score-item">
+                    <span class="label">Puntaje:</span>
+                    <span id="score" class="value">0</span>
+                </div>
+                <div class="score-item">
+                    <span class="label">Velocidad:</span>
+                    <span id="speed" class="value">4</span>
+                </div>
+            </div>
+            
+            <canvas id="gameCanvas" width="600" height="400"></canvas>
+            
+            <div class="controls">
+                <p><strong>Controles:</strong></p>
+                <p>🎮 Flechas: Mover | ESPACIO: Reiniciar | ESC: Pausa</p>
+            </div>
+        </div>
+        
+        <div class="info">
+            <h3>📋 Cómo Jugar</h3>
+            <ul>
+                <li>Come la comida roja para crecer</li>
+                <li>Evita chocar con las paredes</li>
+                <li>Evita chocar con tu cuerpo</li>
+                <li>La velocidad aumenta con cada comida</li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <p>Creado por <a href="https://github.com/Alejo-Pueblas" target="_blank">Alejo Pueblas</a></p>
+            <p><a href="https://github.com/Alejo-Pueblas/SnakeGame" target="_blank">Ver código en GitHub</a></p>
+        </div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
