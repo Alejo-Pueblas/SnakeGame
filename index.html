@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game - Clásico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Snake Game</h1>
+        <div class="game-wrapper">
+            <canvas id="gameCanvas" width="600" height="400"></canvas>
+            <div id="gameOver" class="game-over hidden">
+                <h2>GAME OVER</h2>
+                <p class="final-score">Puntaje: <span id="finalScore">0</span></p>
+                <p class="instructions">Presiona ESPACIO para reiniciar</p>
+                <p class="instructions">o ESC para salir</p>
+            </div>
+        </div>
+        <div class="score-display">
+            <p>Score: <span id="score">0</span></p>
+        </div>
+        <div class="controls">
+            <p>Usa las flechas del teclado para moverte</p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
